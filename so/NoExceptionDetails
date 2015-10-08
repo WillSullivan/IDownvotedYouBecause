@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Image of an Exception</title>
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="../stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="../javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+<body>
+    <header>
+        <h1>I downvoted you because...</h1>
+        <p>you didn't include all exception details in your question</p>
+    </header>
+    <div id="banner">
+        <a href="https://github.com/WillSullivan/IDownvotedYouBecause" id="logo" title="View the website repository on GitHub" />       
+        <a href="../index" class="button">About</a>
+    </div><!-- end banner -->
+    <div class="wrapper">
+        <nav>
+            <ul></ul>
+        </nav>
+        <section>
+            <h1>
+                We need all Exceptoin details to help you!
+            </h1>
+            <p>In your question, you indicated that there was an exception thrown when your code executes. <i>That's good information</i> that we need to help you find a solution.  However, in order to find that solution, <b>we need to know the details that can be found within the exception</b>.  If your question lacks this detailed exception information, it becomes harder for us to help you.</p>
+            <h2>What you did wrong</h2>
+            <p>You didn't include the <b>details</b> of the exception.  Exceptions contain <i>lots</i> of information--information we need to determine what is going on in your code.  This information includes:</p>
+            <ul>
+            <li>The Type of the Exception</li>
+            <li>The Exception message</li>
+            <li>The <a href="https://en.wikipedia.org/wiki/Stack_trace">stack trace</a></li>
+            <li>All <i>inner Exceptions</i> and their Types, messages, and stack traces</li>
+            </ul>
+            <p>Please note, pictures of Exceptions that shows some of the detail contained within the exception <i>are also not helpful</i>.  Please, do <b>not</b> take an image of your Exception and paste it into an edit!</p>
+            <p><img src="images/exceptionimage3.PNG" /></p>
+            <h2>Why this is worth a downvote</h2>
+            <p>Exceptions contain almost all of the information we, the people trying to help you, need in order to give you a quick answer.  When you do not give us this information, we must examine your question in hopes to find clues to the information that would have been readily available for examination had you included them in your question.  This is, in short, a waste of the time of the people who are trying to help you.</p>
+            <h2>Capturing exception details</h2>
+            <p>
+                Instead of taking a picture of the exception, <b>get a text report of all of the contents within it.</b>  This can usually be accomplished very easy, depending on what language and tools you are using.  Here are some examples of capturing these details.
+            </p>
+            <h3>Visual Studio and .NET</h3>
+            <p>
+                If you are debugging in Visual Studio, the Exception Helper Dialog contains a link that will copy all exception details to the clipboard
+            </p>
+            <p><img src="images/exceptionimage2.PNG" /></p>
+            <p>If you are experiencing the Exception at runtime, you can <a href="http://stackoverflow.com/questions/9526139/how-to-catch-exceptions">catch the exception</a> and call <b>ToString()</b> on it.  Log the result, using whatever method is most convenient for you.</p>            
+            <h2>What to do with them</h2>
+            <p>Once you have gathered all the details from the exception, you can paste it into your question in an edit.  <b>This is important</b>--do not try to paste the exception details into a <i>comment</i>, as there is not enough room for all the of details.  There is an "edit" link at the bottom of your question, click it and paste the details into your question.  And don't forget to format it!</p>
+            <p>Once you have done this, leave a comment to the person who sent you this link.  They will be happy to retract their downvote.</p>
+            <h2>Did this help you understand why I downvoted you?</h2>
+            <p>If not, or if you would like to leave feedback, please <b><a href="https://github.com/WillSullivan/IDownvotedYouBecause/issues/new">create an Issue regarding this page on GitHub.</a></b>  Thank you for helping us improve the way we help you!</p>
+        </section>
+        <footer>
+            <p>Project maintained by <a href="https://github.com/WillSullivan">WillSullivan</a></p>
+            <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+        </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-52051166-6");
+            pageTracker._trackPageview();
+        } catch (err) { }
+    </script>
+</body>
+</html>
