@@ -33,6 +33,8 @@ Given as much of this as possible, I'll do my best to create the page and add it
 
 Alternatively, contributors can fork the repository, make all the edits they want themselves, then submit a pull request.
 
+!!! If you have working knowledge of Jekyll, come help me make submission to IDYB easier!  I'm trying to get jekyll integration working for IDYB, but it's being ... annoying.  See this issue for details: https://github.com/WillSullivan/IDownvotedYouBecause/issues/3
+
 Realistically (as in, what will probably happen unlike the above two options), I'll be the one adding new stuff as I downvote my way through the internet.
 
 If you like, please use. Got an idea? Please create an Issue, or send me a pull request.  Thanks.
