@@ -1,4 +1,4 @@
-###Are you a Github Jekyll wizard? I'm not. Can you help? See [this issue](https://github.com/WillSullivan/IDownvotedYouBecause/issues/3) for details!
+#####*Are you a Github Jekyll wizard? I'm not. Can you help? See [this issue](https://github.com/WillSullivan/IDownvotedYouBecause/issues/3) for details!*
 
 IDownvotedYouBecause... is a quick and dirty way to give other users detailed information on why you downvoted their post and what they can do to fix it--politely, and with lots of information.
 
