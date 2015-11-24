@@ -1,3 +1,5 @@
+###Are you a Github Jekyll wizard? I'm not. Can you help? See [this issue](https://github.com/WillSullivan/IDownvotedYouBecause/issues/3) for details!
+
 IDownvotedYouBecause... is a quick and dirty way to give other users detailed information on why you downvoted their post and what they can do to fix it--politely, and with lots of information.
 
 ###How does this work?
@@ -31,9 +33,7 @@ In simplest form, someone wishing to add a new downvote reason could create [an 
 
 Given as much of this as possible, I'll do my best to create the page and add it to the running list within a reasonable period of time.  
 
-Alternatively, contributors can fork the repository, make all the edits they want themselves, then submit a pull request.
-
-!!! If you have working knowledge of Jekyll, come help me make submission to IDYB easier!  I'm trying to get jekyll integration working for IDYB, but it's being ... annoying.  See this issue for details: https://github.com/WillSullivan/IDownvotedYouBecause/issues/3
+Alternatively, contributors can fork the repository, make all the edits they want themselves, then submit a pull request.  This should be easier once Jekyll integration is fixed.
 
 Realistically (as in, what will probably happen unlike the above two options), I'll be the one adding new stuff as I downvote my way through the internet.
 
